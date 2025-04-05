@@ -39,3 +39,6 @@ print()
 inorder('A')    # 중위 순회
 print()
 postorder('A')  # 후위 순회
+
+
+ㅇ

@@ -59,3 +59,5 @@ for level in level_min:
         answer_level = min(answer_level, level)
 
 print(answer_level, max_width)
+
+

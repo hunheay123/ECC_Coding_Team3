@@ -29,3 +29,8 @@ bfs(1)
 # 2번 노드부터 출력
 for i in range(2, n + 1):
     print(parent[i])
+
+
+
+
+

@@ -1,0 +1,8 @@
+from itertools import permutations
+
+N, M = map(int, input().split())
+nums = list(range(1, N + 1))
+
+# 모든 순열을 구하고, 길이가 M인 것만 출력
+for perm in permutations(nums, M):
+    print(' '.join(map(str, perm)))
